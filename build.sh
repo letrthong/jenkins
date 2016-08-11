@@ -1,4 +1,4 @@
-echo "Hello world"
+echo "Hello world ->$PWD"
 
 FILE=libgtest.a
 
