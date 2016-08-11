@@ -15,8 +15,8 @@ else
 	make clean
 	make
 
-	cp ./lib/.libs/libgtest.a  ../
-	cp ./lib/.libs/libgtest_main.a  ../
+	cp -f ./lib/.libs/libgtest.a  ../
+	cp -f ./lib/.libs/libgtest_main.a  ../
 	make clean
 	git add *.a
 	git clean -d -f
