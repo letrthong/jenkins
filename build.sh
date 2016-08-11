@@ -28,5 +28,5 @@ make
 rm -f *~  *.o *.out
 
 echo "Build successfully"
-exit 1
+#exit 1
 
