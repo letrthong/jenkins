@@ -27,4 +27,6 @@ make
 #Clean up
 rm -f *~  *.o *.out
 
+echo "Build successfully"
+exit 1
 
