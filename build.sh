@@ -1,5 +1,6 @@
 echo "Hello world ->$PWD"
 
+ROOT=$PWD
 FILE=libgtest.a
 
 if [ -f "$FILE" ];
@@ -20,7 +21,7 @@ else
 	make clean
 fi
 
-
+cd $ROOT
 make
 ./a.out  --gtest_output="xml:report.xml"
 
