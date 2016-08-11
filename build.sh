@@ -12,6 +12,7 @@ else
 	cmake ..
 	cd  ..
 	./configure
+	make clean
 	make
 
 	cp ./lib/.libs/libgtest.a  ../
