@@ -18,9 +18,6 @@ else
 	cp -f ./lib/.libs/libgtest.a  ../
 	cp -f ./lib/.libs/libgtest_main.a  ../
 	make clean
-	git add *.a
-	git clean -d -f
-	git checkout -- .
 fi
 
 
