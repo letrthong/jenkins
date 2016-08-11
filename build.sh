@@ -1,4 +1,3 @@
-echo "Hello world ->$PWD"
 
 ROOT=$PWD
 FILE=libgtest.a
